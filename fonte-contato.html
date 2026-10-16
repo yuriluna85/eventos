@@ -1,0 +1,101 @@
+titulo: Contato com o Rota Eventos
+descricao: Fale com o Rota Eventos para sugerir um evento, corrigir uma informação, pedir a retirada de uma página ou tratar de privacidade. Resposta em 48 h úteis.
+slug: contato
+robots: index,follow
+json_ld: pagina
+---
+    <div class="container pagina">
+      <article class="leitura">
+        <h1>Contato</h1>
+        <p class="resumo">Use esta página para sugerir um evento, corrigir uma informação, pedir a retirada de uma página, relatar um problema de acessibilidade ou tratar de privacidade.</p>
+        <p class="datas">Publicado em 16/10/2026. Atualizado em 16/10/2026.</p>
+
+        <h2>Como responder mais rápido</h2>
+        <p>O portal é mantido por uma pessoa só, então mensagens objetivas são respondidas mais depressa. Informe sempre o assunto, o endereço da página em questão e, quando houver, o link da fonte oficial que comprova a informação. Respondemos em até 48 horas úteis.</p>
+
+        <h2>Formulário</h2>
+        <form id="form-contato" novalidate>
+          <div class="campo">
+            <label class="rotulo" for="c-nome">Nome</label>
+            <input type="text" id="c-nome" name="nome" autocomplete="name" required>
+          </div>
+          <div class="campo">
+            <label class="rotulo" for="c-email">Seu e-mail</label>
+            <input type="email" id="c-email" name="email" autocomplete="email" required>
+          </div>
+          <div class="campo">
+            <label class="rotulo" for="c-assunto">Assunto</label>
+            <select id="c-assunto" name="assunto" required>
+              <option value="Sugestão de evento">Sugerir um evento</option>
+              <option value="Correção de informação">Corrigir uma informação</option>
+              <option value="Retirada de página">Pedir a retirada de uma página</option>
+              <option value="Acessibilidade">Relatar problema de acessibilidade</option>
+              <option value="Privacidade">Privacidade e dados pessoais</option>
+              <option value="Outro assunto">Outro assunto</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label class="rotulo" for="c-mensagem">Mensagem</label>
+            <textarea id="c-mensagem" name="mensagem" required></textarea>
+          </div>
+          <p><button type="submit" class="btn">Enviar mensagem</button></p>
+          <div class="retorno-form" id="retorno-contato" role="status" aria-live="polite" hidden></div>
+        </form>
+
+        <h2>E-mail</h2>
+        <p>Se preferir escrever direto do seu programa de e-mail: [inserir e-mail de contato].</p>
+
+        <h2>O que enviar em cada caso</h2>
+        <table>
+          <thead>
+            <tr><th>Assunto</th><th>O que informar</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Sugerir um evento</td><td>Nome, datas, cidade ou plataforma e o link da página oficial.</td></tr>
+            <tr><td>Corrigir uma informação</td><td>Endereço do artigo, o dado errado, o dado certo e o link da fonte.</td></tr>
+            <tr><td>Retirar uma página</td><td>Endereço do artigo e a sua relação com o evento, por exemplo organizador ou palestrante.</td></tr>
+            <tr><td>Acessibilidade</td><td>Página, recurso usado (leitor de tela, teclado, zoom) e o que não funcionou.</td></tr>
+            <tr><td>Privacidade</td><td>O pedido (acesso, correção, eliminação) e o e-mail que usou ao escrever.</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Para organizadores de eventos</h2>
+        <p>Se você organiza um evento da área, o caminho mais curto para entrar na agenda é ter uma página oficial clara. A conferência do portal procura nessa página o nome do evento, as datas, o local ou a plataforma, a modalidade, o prazo de inscrição, o custo e a forma de certificação. Quanto mais completa a página, mais completo fica o artigo, e menos vezes aparece o aviso "não informado".</p>
+        <p>Informe também se o evento tem programação aberta ao público, se há valores diferentes para estudantes e profissionais e se a participação online dá direito a certificado. Essas dúvidas são as que mais aparecem entre quem decide se vai participar.</p>
+        <p>Depois que o artigo entra no ar, você pode pedir ajustes pelo mesmo formulário. Mudanças de data, de local ou de prazo são tratadas primeiro, porque afetam quem já planejou a viagem ou a inscrição.</p>
+
+        <h2>Prazos e fila de atendimento</h2>
+        <p>As mensagens são lidas em ordem de chegada, com uma exceção: correções de dados que podem causar prejuízo a quem participa, como data errada ou evento cancelado, passam na frente. Pedidos de retirada de página e de privacidade também têm prioridade. Sugestões de novos eventos entram na fila de conferência e podem levar alguns dias até virar artigo, porque cada uma passa pela mesma checagem e pela leitura do autor.</p>
+
+        <h2>Perguntas frequentes</h2>
+        <details>
+          <summary>Vocês vendem ingressos ou fazem inscrições?</summary>
+          <p>Não. O portal apenas informa e indica a página oficial. Inscrição, pagamento e certificado são tratados com o organizador.</p>
+        </details>
+        <details>
+          <summary>Quanto custa divulgar meu evento?</summary>
+          <p>Nada. Incluir um evento na agenda não é pago. O evento só precisa ter página oficial, data futura e modalidade definida para passar pela conferência.</p>
+        </details>
+        <details>
+          <summary>Meu evento foi cancelado ou mudou de data. O que faço?</summary>
+          <p>Escreva com o assunto "Correção de informação", o endereço do artigo e o link do comunicado oficial. A correção tem prioridade sobre a publicação de novos textos.</p>
+        </details>
+        <details>
+          <summary>Posso republicar um artigo do portal?</summary>
+          <p>Trechos curtos com indicação da fonte e link são permitidos. Para republicar um texto inteiro, peça autorização por esta página. As regras estão nos <a href="termos.html">termos de uso</a>.</p>
+        </details>
+        <details>
+          <summary>Meus dados ficam guardados quando envio o formulário?</summary>
+          <p>O formulário abre o seu programa de e-mail com a mensagem pronta, e o portal não guarda o que você digita. Depois que você envia, o e-mail chega à caixa do autor e é usado só para responder. Os detalhes estão na <a href="privacidade.html">política de privacidade</a>.</p>
+        </details>
+        <details>
+          <summary>Vocês aceitam notas pagas ou conteúdo patrocinado?</summary>
+          <p>Hoje não. Se isso mudar, o portal avisará nas páginas afetadas, deixando claro o que é publicidade.</p>
+        </details>
+
+        <div class="autoria">
+          <img src="avatar-bolinho-de-chuva.png" alt="Avatar do Bolinho de Chuva, mascote do YLuna85 LABs" width="56" height="56">
+          <p>Por <strong>Yuri Luna</strong>, YLuna85 LABs. Conheça o portal na página <a href="sobre.html">sobre</a>.</p>
+        </div>
+      </article>
+    </div>

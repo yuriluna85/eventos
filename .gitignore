@@ -1,0 +1,7 @@
+# Coleta local e rascunhos (Fase 2 em diante): ficam só na máquina
+local/
+.env
+.cache/
+__pycache__/
+*.pyc
+desktop.ini

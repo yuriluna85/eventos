@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /fonte-
+Disallow: /modelo-
+
+Sitemap: https://yuriluna85.github.io/eventos/sitemap.xml
